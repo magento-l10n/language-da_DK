@@ -1,0 +1,20 @@
+{
+    "name": "community-engineering/language-da_dk",
+    "type": "magento2-language",
+    "description": "da_DK language package.",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+          "registration.php"
+        ]
+    }
+}
