@@ -422,6 +422,7 @@ void,ugyldig
 "Unable to place order. Please try again later.","Vi kan desværre ikke modtage din ordre. Prøv venligst igen."
 "Exception message",Undtagelsesbesked
 "Order by SKU","Rækkefølge af SKU"
+"Enter SKU or Product Name","Indtast varenummer eller produktnavn"
 "Remove Row","Fjern række"
 "Sorry, something went wrong. You can find out more in the error log.","Desværre, gik noget galt. Du kan finde flere oplysninger i fejlloggen."
 "Allowed Credit Card Types","Tilladte kreditkort"
@@ -1674,6 +1675,7 @@ Category,Kategori
 "Advanced Search","Avanceret søgning"
 "<strong>%1 item</strong> were found using the following search criteria","<strong>%1 vare</strong> blev fundet ved hjælp af følgende søgekriterier"
 "<strong>%1 items</strong> were found using the following search criteria","<strong>%1 varer</strong> blev fundet ved hjælp af følgende søgekriterier"
+"We can't find any items matching these search criteria.","Vi kan ikke finde nogen der opfylder disse søgekriterier."
 "Modify your search.","Ændre din søgning."
 "Don't see what you're looking for?","Kan du ikke finde det, du leder efter?"
 "Catalog Section","Katalog afsnit"
@@ -2190,6 +2192,7 @@ text,tekst
 "You added product %1 to the <a href=""%2"">comparison list</a>.","Du tilføjede product %1 til <a href=""%2"">sammenligning</a>."
 "too many","alt for mange"
 "This value does not follow the specified format (for example, 200X300).","Denne værdi følger ikke den angivne format (for eksempel, 200 X 300)."
+"Product Name or SKU","Produktnavn eller Varenummer"
 Advanced,Avanceret
 "Move to Archive","Flyt til arkivet"
 Archive,Arkivér
