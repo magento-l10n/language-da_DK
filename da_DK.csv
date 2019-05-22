@@ -3597,6 +3597,7 @@ Duration:,Varighed:
 "Please select a valid payment method.","Vælg en gyldig betalingsmetode."
 "Shipping address not set.","Leveringsadresse ikke angivet."
 Carts,Indkøbskurve
+"The coupon code isn't valid. Verify the code and try again.","Rabatkoden er ikke gyldig. Kontroller koden, og prøv igen."
 "
                         <p>Magento 2.2.4 provides powerful new tools to help reduce cart abandonment and simplify store operations:</p>
                         <br />
@@ -4124,6 +4125,7 @@ Operations,Operationer
 "Shipping and Handling","Levering og håndtering"
 "Grid Settings",Gitterindstillinger
 "Product is not salable.","Produktet er ikke salgbart."
+"The ""%1"" coupon code isn't valid. Verify the code and try again.","""%1"" rabatkoden er ikke gyldig. Kontroller koden og prøv igen."
 "Move to Archive","Flyt til arkivet"
 "Mass Add","Masse Tilføj"
 "Coupon Qty","Kupon antal"
