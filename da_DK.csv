@@ -310,6 +310,7 @@ Retry,"Prøv igen"
 "%1 item(s) have been scheduled for update.""","%1 produkt(er) er blevet planlagt for opdatering."""
 "Bulk Actions Log",Bulk-handlingslog
 "Something went wrong while processing the request.","Noget gik galt under behandlingen af anmodningen."
+"Sorry, something went wrong during product prices update. Please see log for details.","Desværre gik noget galt under opdateringen af produktpriser. Se handlingsloggen for flere oplysninger."
 "%1 item(s) are currently being updated.","%1 produkt(er) opdateres i øjeblikket."
 "Task ""%1"": ","Opgave ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 produkt(er) er blevet planlagt for opdatering."
@@ -326,6 +327,7 @@ Dismiss,Afvis
 "Action Log",Handlingslog
 Report,Rapporter
 "Bulk Actions",Bulk-handlinger
+"Action Logs",Handlingslog
 "Days Saved in Log","Dage gemt i loggen"
 "Description of Operation","Beskrivelse af operationen"
 Summary,Oversigt
@@ -1905,6 +1907,7 @@ End,Afslut
 "Countdown Ticker",Nedtællingsticker
 "Edit Event...","Rediger Begivenhed..."
 "Add Event...","Tilføj begivenhed..."
+"Category doesn't exist","Kategorien findes ikke"
 "There are no product types available for export.","Der er ingen varetyper til eksport."
 "'Entity type model must be an instance of ' .","'Enhedstypemodellen skal være en forekomst af'."
 "Wrong attribute set code ""%1"", please correct it and try again.","Forkert attributsæt kode ""%1"", venligst ret den og prøv igen."
