@@ -263,17 +263,25 @@ Yes,Ja
 "Please select a vertical.","Vælg venligst en lodret."
 "--Please Select--",--Vælg--
 "Command was not found.","Kommandoen blev ikke fundet."
+"Input data must be string or convertible into string.","Input data skal være en streng eller konvertibel indtil en streng."
+"Input data must be non-empty string.","Input data skal være en ikke-tom streng."
+"Not valid cipher method.","Ugyldig krypteringsmetode."
+"Encryption key can't be empty.","Krypteringskode kan ikke være tom."
+"Source ""%1"" is not exist","Kilden ""%1"" eksistere ikke"
 "These arguments can't be empty ""%1""","Disse argumenter må ikke være tomme ""%1"""
 "Cannot find predefined integration user!","Kan ikke finde foruddefinerede integrationsbruger!"
 "File is not ready yet.","Filen er ikke klar endnu."
 "Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","Din Base URL-adresse er blevet ændret og dine rapporter opdateres. Avancerede rapporter vil være tilgængelige når denne ændring er blevet behandlet. Prøv igen senere."
 "Failed to synchronize data to the Magento Business Intelligence service. ","Ikke kunne synkronisere data til tjenesten Magento Business Intelligence. "
+"<a href=""%1"">Retry Synchronization</a>","<a href=""%1"">Forsøg at synkronisere igen</a>"
+TestMessage,TestBesked
 "Apps and Games","Apps og spil"
 "Athletic/Sporting Goods","Atletisk/sports varer"
 "Art and Design","Kunst og design"
 "Advanced Reporting","Avanceret rapport"
 "Gain new insights and take command of your business' performance, using our dynamic product, order, and customer reports tailored to your customer data.","Få ny indsigt og overtage styringen over din virksomheds ydeevne, ved hjælp af vores dynamiske produkt-, ordre- og kunderapporter skræddersyet til dine kundedata."
 "Go to Advanced Reporting","Gå til avanceret rapportering"
+Analytics,Analyser
 Configuration,Konfiguration
 "This service provides a dynamic suite of reports with rich insights about your business.
                 Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
@@ -295,6 +303,7 @@ Industry,Industri
 "Consumer Electronics",Forbrugerelektronik
 "Fashion Apparel and Accessories","Modetøj og tilbehør"
 "Food, Beverage and Grocery","Fødevarer, drikkevarer og dagligvarer"
+"Home Goods and Furniture","Ting til Hjemmet"
 "Home Improvement","Gør det selv"
 "Jewelry and Watches","Smykker og ure"
 "Mass Merchant",Storkøb
@@ -304,12 +313,23 @@ Industry,Industri
 "Pharma and Medical Devices","Pharma og medicinsk udstyr"
 "Technology B2B","Teknologi B2B"
 Other,Andet
+"The time value is using an unsupported format. Enter a supported format and try again.","Formatet for tidsangivelse er ikke understøttet. Angiv et gyldigt format og prøv igen."
+"Please select an industry.","Vælg venligst en branche."
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Dataene er ugyldige. Indtaste data som en streng eller data, der kan konverteres til en streng og prøv igen."
+"The data is invalid. Enter the data as a string and try again.","Dataene er ugyldige. Indtaste data som en streng og prøv igen."
+"The data is invalid. Use a valid cipher method and try again.","Dataene er ugyldige. Brug en gyldigt ciffer-metode, og prøv igen."
+"Enter the encryption key and try again.","Angiv krypteringsnøglen, og prøv igen."
+"The ""%1"" source doesn't exist.","Kilden ""%1"" findes ikke."
+"Retry Synchronization","Prøv at synkronisere igen"
 Done,Udført
 Retry,"Prøv igen"
 "'Action Details - #' .","'Handlingsdetaljer - #'."
 "%1 item(s) have been scheduled for update.""","%1 produkt(er) er blevet planlagt for opdatering."""
 "Bulk Actions Log",Bulk-handlingslog
+"Bulk uuid %bulkUuid not exist","Bulk uuid %bulkUuid findes ikke"
+"Topic %1","Emne %1"
 "Something went wrong while processing the request.","Noget gik galt under behandlingen af anmodningen."
+"Error processing %key element of input data","Fejl under behandling af %key element i inputdata"
 "Sorry, something went wrong during product prices update. Please see log for details.","Desværre gik noget galt under opdateringen af produktpriser. Se handlingsloggen for flere oplysninger."
 "%1 item(s) are currently being updated.","%1 produkt(er) opdateres i øjeblikket."
 "Task ""%1"": ","Opgave ""%1"": "
@@ -342,6 +362,7 @@ Error,Fejl
 "Number of Records Affected","Antallet af poster som påvirkes"
 "We can't find the role for the user you wanted.","Vi kan ikke finde rollen, for den bruger du ønskede."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Noget gik galt under udarbejdelse af en liste over tilladte ressourcer. Du kan finde flere oplysninger i logfilen for undtagelser."
+"The role wasn't found for the user. Verify the role and try again.","Brugerens rollen blev ikke fundet. Kontroller rollen og prøv igen."
 "You created the order.","Du har oprettet ordren."
 "Order saving error: %1","Bestillingsfejl: %1"
 "Please choose a payment method.","Vælg venligst en betalingsmetode."
@@ -411,7 +432,16 @@ Debug,Fejlsøgning
 "Sort Order",Sorteringsrækkefølge
 "Cannot place order.","Kan ikke placere ordren."
 "Unable to place order. Please try again later.","Vi kan desværre ikke modtage din ordre. Prøv venligst igen."
+"A server error stopped your order from being placed. Please try to place your order again.","En serverfejl forhindrede din ordre fra at blive placeret. Prøv at afgive din ordre igen."
+"The transaction details are unavailable. Please try again later.","Oplysninger om transaktionen er ikke tilgængelig. Prøv igen senere."
+"There was an error while trying to process the request.","Der opstod desværre et problem under udførelsen af den angivne proces."
+"This transaction cannot be refunded with its current status.","Denne transaktion kan ikke blive refunderet i sin nuværende status."
+"The authenticity of the gateway response could not be verified.","Autenciteten af denne gateway respons kunne ikke blive verificeret."
 Environment,Miljø
+"Public Client Key","Offentlig Klient Nøgle"
+"Invalid request to gateway.","Ugyldig anmodning til gateway."
+"Invalid gateway credentials.","Ugyldig gateway credentials."
+"Transaction has been declined. Please try again later.","Transaktionen blev afvist. Prøv venligst igen senere."
 options,valgmuligheder
 "Select all","Vælg alle"
 "Deselect all","Fravælg alle"
@@ -512,6 +542,7 @@ Code,Kode
 "Default Store View","Standard Butiksvisning"
 "Store View Information","Butiksvisnings Information"
 Disabled,"Slået fra"
+"Web Site Information","Hjemmeside Information"
 "Default Store","Standard Butik"
 "Set as Default","Sæt som standard"
 Stores,Butikker
@@ -532,6 +563,7 @@ To,Til
 "[ deleted ]","[ slettet ]"
 "Select All","Vælg alle"
 " [deleted]"," [ slettet]"
+"We couldn't find any records.","Vi kunne ikke finde nogen arkiver."
 "Add New","Tilføj Ny"
 "Invalid export type supplied for grid export block","Ugyldig eksport type for grid eksport blok"
 Export,Eksportér
@@ -542,6 +574,7 @@ Submit,Send
 "Please correct the tab configuration and try again. Tab Id should be not empty","Ret venligst tab konfigurationen og prøv igen. Tab Id må ikke være tom"
 "Please correct the tab configuration and try again.","Ret venligst tab konfigurationen og prøv igen."
 "You have logged out.","Du har logget af."
+"Specified cache type(s) don't exist: %1","Specificeret cache type(r) eksisterer ikke: %1"
 "The image cache was cleaned.","Billede cache er slettet."
 "An error occurred while clearing the image cache.","En fejl opstod under nulstilling af billede cache."
 "The JavaScript/CSS cache has been cleaned.","JavaScript/CSS cache er blevet slettet."
