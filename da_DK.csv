@@ -993,6 +993,7 @@ Frequency,Hyppighed
 "Are you sure you want to delete the selected backup(s)?","Er du sikker på du vil slette de markerede backup(s)?"
 Size(bytes),"Størrelse (bytes)"
 Download, Download
+"Backup functionality is disabled","Sikkerhedskopierings funktionalitet er deaktiveret"
 Banners,Bannere
 "Add Banner","Tilføj banner"
 "Save Banner","Gem banner"
