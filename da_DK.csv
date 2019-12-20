@@ -994,6 +994,10 @@ Frequency,Hyppighed
 Size(bytes),"Størrelse (bytes)"
 Download, Download
 "Backup functionality is disabled","Sikkerhedskopierings funktionalitet er deaktiveret"
+"Backup Settings","Backup Indstillinger"
+"Enable Backup","Aktiver Backup"
+"Scheduled Backup Type","Planlagt Backup Type"
+"Disabled by default for security reasons","Deaktiveret som standard af sikkerhedsgrunde"
 Banners,Bannere
 "Add Banner","Tilføj banner"
 "Save Banner","Gem banner"
@@ -1089,6 +1093,10 @@ Header,Sidehovede
 "Manage Dynamic Blocks","Administrer dynamiske blokke"
 "Dynamic Blocks Rotator","Dynamiske blok rotering"
 "Displays Specified or Promotion Dynamic Blocks","Viser specificerede eller promoverede Dynamiske Blokke"
+"Dynamic Blocks to Display","Dynamiske blokke til visning"
+"Specified Dynamic Blocks","Angivet dynamiske blokke"
+"Restrict by Dynamic Block Types","Begrænset af dynamiske bloktyper"
+"Specify Dynamic Blocks","Angiv dynamiske blokke"
 "Status Label","Status etiket"
 "General Information","Generelle informationer"
 "Use Default Value","Brug standardværdi"
