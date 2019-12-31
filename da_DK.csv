@@ -4601,7 +4601,12 @@ Product:,Produkt:
 "Add URL Rewrite for CMS page","Tilføj URL omskrivning for CMS side"
 "CMS page:","CMS side:"
 "Delete Role","Slet rolle"
+"Save Role","Gem rolle"
 Roles,Roller
+"Role Information",Rolleinformation
+"Role Users",Rollebrugere
+"Role Resources",Rolleressourcer
+"Role Info",Rolleinformation
 "Save User","Gem bruger"
 "Delete User","Slet bruger"
 "New User","Ny bruger"
