@@ -1800,6 +1800,7 @@ Category,Kategori
 "A product type is not defined for the indexer.","En produkttype er ikke defineret ud fra indexer."
 "%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","%1 forlænger ikke \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice"
 "Product with SKU %1 is not linked to product with SKU %2","Produkt med SKU %1 er ikke knyttet til produkt med SKU %2"
+"Some text is here.","Noget tekst er påkrævet."
 "Some exception","Nogle undtagelse"
 "Could not get extension attributes","Kunne ikke hente udvidelsesattributter"
 message,besked
