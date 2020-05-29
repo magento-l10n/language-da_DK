@@ -4622,6 +4622,7 @@ Page,Side
 "You're currently reading page","Du læser i øjeblikket side"
 "1 column","1 kolonne"
 Account,Konto
+"This is a demo store. No orders will be fulfilled.","Denne butik er kun til demonstration. Ordrer vil ikke blive behandlet."
 "Translation Strategy",Oversættelsesstrategi
 Translations,Oversættelser
 "Remove %1","Fjern %1"
