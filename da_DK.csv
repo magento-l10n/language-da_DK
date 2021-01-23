@@ -362,7 +362,7 @@ Error,Fejl
 "Number of Records Affected","Antallet af poster som påvirkes"
 "We can't find the role for the user you wanted.","Vi kan ikke finde rollen, for den bruger du ønskede."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Noget gik galt under udarbejdelse af en liste over tilladte ressourcer. Du kan finde flere oplysninger i logfilen for undtagelser."
-"The role wasn't found for the user. Verify the role and try again.","Brugerens rollen blev ikke fundet. Kontroller rollen og prøv igen."
+"The role wasn't found for the user. Verify the role and try again.","Brugerens rolle blev ikke fundet. Kontroller rollen og prøv igen."
 "You created the order.","Du har oprettet ordren."
 "Order saving error: %1","Bestillingsfejl: %1"
 "Please choose a payment method.","Vælg venligst en betalingsmetode."
@@ -372,6 +372,7 @@ Error,Fejl
 "amount %1","beløb %1"
 failed.,fejlede.
 successful.,gennemført.
+"Authorize.Net Transaction ID %1.","Authorize.Net Transaktion ID %1."
 authorize,authoriser
 "authorize and capture","tillade og fasthold"
 capture,indfang
@@ -2053,6 +2054,7 @@ to,til
 "You added product %1 to the <a href=""%2"">comparison list</a>.","Du tilføjede product %1 til <a href=""%2"">sammenligning</a>."
 "too many","alt for mange"
 "This value does not follow the specified format (for example, 200X300).","Denne værdi følger ikke den angivne format (for eksempel, 200 X 300)."
+Quality,Kvalitet
 Cost,Pris
 "Product Name or SKU","Produktnavn eller Varenummer"
 "Edit Event","Rediger Begivenhed"
@@ -3655,6 +3657,7 @@ Wishlist,Ønskeliste
 "Other items in your order","Andre varer i din ordre"
 "Edit Items","Rediger varer"
 "Shipping is not applicable.","Levering er ikke gyldig."
+"Check Out with Multiple Addresses","Bestil til flere adresser"
 "Shipping To","Levering til
 "
 "Order Review",Ordreoversigt
@@ -4054,6 +4057,7 @@ Copy,Kopier
 "Save Review","Gem anmeldelse"
 "New Review","Ny anmeldelse"
 "Review Details","Gennemgå detaljer"
+Visibility,Synlighed
 Nickname,Brugernavn
 Author,Forfatter
 "All Reviews","Alle anmeldelser"
@@ -4072,6 +4076,7 @@ Rating,Bedømmelse
 "Write Your Own Review","Skriv din egen anmeldelse"
 "You're reviewing:","Du anmelder:"
 "Your Rating","Din bedømmelse"
+"Submit Review","Indsend anmeldelse"
 "Add Your Review","Tilføj din anmeldelse"
 "Review by","Anmeldelse af"
 "Back to Product Reviews","Tilbage til Produktanmeldelser"
