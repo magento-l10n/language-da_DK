@@ -4192,6 +4192,7 @@ description,beskrivelse
 "My Wish List","Min ønskeseddel"
 "We can't add the item to the cart right now.","Vi kan ikke føje denne vare til din indkøbskurv lige nu."
 "%1 has been moved to your wish list.","%1 er blevet flyttet til din ønskeliste."
+"You must login or register to add items to your wishlist.","Du skal være logget ind eller registrere dig for at tilføje varer til din ønskeliste."
 "Message length must not exceed %1 symbols","Besked længde må ikke overstige %1 tegn"
 "Your wish list has been shared.","Din ønskeliste er blevet delt."
 "%1 has been updated in your Wish List.","%1 er blevet opdateret i din ønskeliste."
