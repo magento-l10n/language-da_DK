@@ -1859,6 +1859,7 @@ End,Afslut
 "The fewest you may purchase is %1.","Du skal minimum købe %1."
 "Please correct the quantity for some products.","Ret venligst antallet for nogle produkter."
 "The most you may purchase is %1.","Du må højest købe %1."
+"The requested qty is not available","Den forespurgte mængde er ikke tilgængelig"
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Vi har ikke så mange ""%1"" som du anmodede om, men vi vil bestille de resterende %2."
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Vi har ikke så mange ""%1"" som du anmodede om, men vi vil bestille de resterende %2."
 "You can buy %1 only in quantities of %2 at a time.","Du kan købe %1 kun i mængder af %2 på én gang."
@@ -2373,6 +2374,7 @@ Company:,Firma:
 Contacts,Kontakter
 "Add New User","Tilføj ny bruger"
 "Create an Account","Opret en konto"
+"Your account is now active. You can use it to login to the <a href=""%customer_url"">website</a>.","Din konto er nu aktiv. Du kan bruge den til at logge ind på <a href=""%customer_url"">hjemmesiden</a>."
 "When you sign in to your account, you will be able to:","Når du logger på din konto vil du være i stand til at:"
 Proceed,Fortsæt
 "Popup title","Popup titel"
