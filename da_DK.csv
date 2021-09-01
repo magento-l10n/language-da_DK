@@ -1982,6 +1982,7 @@ Path,Sti
 "Customer is already registered","Kunden er allerede registreret"
 "Your session has expired","Din session er udløbet"
 "A letter with further instructions will be sent to your email.","Et brev med yderligere instruktioner vil blive sendt til din e-mail."
+"The quote item isn't found. Verify the item and try again.","Produktet blev ikke fundet. Kontroller produktet og prøv igen."
 "We cannot configure the product.","Vi kan ikke konfigurere produktet."
 "You used coupon code ""%1"".","Du brugte kuponkode ""%1""."
 "You canceled the coupon code.","Du annullerede kuponkoden."
