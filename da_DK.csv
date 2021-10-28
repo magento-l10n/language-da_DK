@@ -1858,6 +1858,7 @@ End,Afslut
 "Unable to remove Stock Status for product %1","Ikke i stand til at fjerne lager status for produktet %1"
 "Please correct the quantity for some products.","Ret venligst antallet for nogle produkter."
 "The fewest you may purchase is %1.","Du skal minimum købe %1."
+"The requested qty exceeds the maximum qty allowed in shopping cart","Det ønskede antal overstiger det maksimalt tilladte antal i indkøbskurven"
 "The requested qty is not available","Den forespurgte mængde er ikke tilgængelig"
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Vi har ikke så mange ""%1"" som du anmodede om, men vi vil bestille de resterende %2."
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Vi har ikke så mange ""%1"" som du anmodede om, men vi vil bestille de resterende %2."
@@ -2057,6 +2058,7 @@ Total:,"I alt:"
 "My billing and shipping address are the same","Min fakturerings- og leveringsadresse er den samme"
 Update,Opdater
 "Save in address book","Gem i adressekartoteket"
+"Sorry, no quotes are available for this order at this time","Beklager, ingen estimater er tilgængelig for ordren på dette tidspunkt"
 "Estimated Total","Anslåede i alt"
 "You can create an account after checkout.","Du kan oprette en konto efter ordreafgivelse."
 "You already have an account with us. Sign in or continue as guest.","Du har allerede en konto hos os. Log ind eller fortsæt som gæst."
@@ -3841,6 +3843,7 @@ Length,Længde
 "Shipping and Tracking Information","Leverings- og tracking information "
 "Track this shipment","Track denne leverance"
 Answers,Svar
+"If you have any questions, please feel free to contact us at <a href=""mailto:%support_email"">%support_email</a> or by phone at <a href=""tel:%store_phone"">%store_phone</a>","Hvis du har spørgsmål, er du velkommen til at kontakte os på <a href=""mailto:%support_email"">%support_email</a> eller på telefon <a href=""tel:%store_phone"">%store_phone</a>"
 "Create Packages","Opret pakker"
 "Add Package","Tilføj pakke"
 "Get Feed","Få Feed"
