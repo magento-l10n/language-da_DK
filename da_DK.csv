@@ -1523,6 +1523,7 @@ Category,Kategori
 "We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Vi fandt en duplikant af hjemmesiden, tier pris, kunde gruppe og antal: Kunde gruppe= %customerGroup, Hjemmeside-ID = %websiteId, Antal= %qty. Række-ID: SKU = %SKU, Hjemmeside-ID: %websiteId, Kundegruppe: %customerGroup, Antal: %qty."
 "No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Der findes ingen enhed med Kunde gruppe = %customerGroup. Række-ID: SKU = %SKU, Hjemmeside-ID: %websiteId, Kunde gruppe: %customerGroup, Antal: %qty."
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Produktet har ikke en gruppe pris med den data: customerGroupId = '%1', website = %2, qty = %3"
+"The product has required options. Enter the options and try again.","Produktet har påkrævede tilpasningsmuligheder. Færdiggør tilpasningen og prøv igen."
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType","%1 forlænger ikke \Magento\Catalog\Model\Product\Type\AbstractType"
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","%1 forlænger ikke \Magento\Catalog\Model\Product\Type\Price"
 "Not Visible Individually","Ikke synligt individuelt"
@@ -3657,6 +3658,7 @@ Duration:,Varighed:
 "Enter SKU or Product Name","Indtast varenummer eller produktnavn"
 "Product that you are trying to add is not available.","Produktet du prøver at tilføje er ikke tilgængeligt."
 "Shipping & Handling (%1)","Levering & håndtering (%1)"
+"Some of the products below do not have all the required options.","Nogle af nedenstående produkter har ikke valgt de nødvendige tilpasningsmuligheder."
 "Minimum order amount is %1","Minimum ordre mængde er %1"
 "This item price or quantity is not valid for checkout.","Denne vareprisen eller mængden er ikke gyldig."
 Carts,Indkøbskurve
