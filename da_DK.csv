@@ -1981,6 +1981,7 @@ Path,Sti
 "Customer is already registered","Kunden er allerede registreret"
 "Your session has expired","Din session er udløbet"
 "A letter with further instructions will be sent to your email.","Et brev med yderligere instruktioner vil blive sendt til din e-mail."
+"Please select at least one product to add to cart","Vælg mindst ét produkt der skal lægges i indkøbskurven"
 "The quote item isn't found. Verify the item and try again.","Produktet blev ikke fundet. Kontroller produktet og prøv igen."
 "We cannot configure the product.","Vi kan ikke konfigurere produktet."
 "You used coupon code ""%1"".","Du brugte kuponkode ""%1""."
@@ -3705,6 +3706,7 @@ Rename,Omdøb
 "Edit item","Rediger vare"
 Copy,Kopier
 Ok,Okay
+"Please select at least one product to proceed.","Vælg mindst ét produkt for at fortsætte."
 "Save Review","Gem anmeldelse"
 "New Review","Ny anmeldelse"
 "Review Details","Gennemgå detaljer"
@@ -4188,6 +4190,7 @@ Synonyms,Synonymer
 "Account Activity",Kontoaktivitet
 "By IP","Efter IP"
 "By Email","Via E-mail"
+"We received too many requests for password resets. Please wait and try again later or contact %1.","Vi har modtaget for mange anmodninger om nulstilling af adgangskoder. Vent venligst og prøv igen senere eller kontakt %1."
 "This computer is using IP address %1.","Denne computer har IP adresse %1."
 "Some emails were not sent.","Nogle emails blev ikke afsendt."
 "Welcome, %name","Velkommen, %name"
@@ -4404,6 +4407,7 @@ Keyword,Nøgleord
 "Please enter issue number or start date for switch/solo card type.","Angiv nummer eller startdato for switch/solo korttype."
 "Please enter positive number in this field.","Angiv positivt tal i dette felt."
 "Please enter a valid value, ex: 10,20,30","Angiv en gyldig værdi, ex: 10,20,30"
+"Please enter a quantity greater than 0.","Angiv venligst en mængde større end 0."
 Attention,Vigtigt
 "UPS Second Day Air","UPS 2. dag luft"
 "UPS Worldwide Express","UPS Worldwide Ekspres"
