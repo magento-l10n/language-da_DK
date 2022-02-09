@@ -2011,6 +2011,8 @@ Checkout,"Til kassen"
 "This quote item does not exist.","Det ønskede produkt findes ikke."
 "Display number of items in cart","Vis antallet af varer i indkøbskurven"
 "Display item quantities","Få vist vare antal"
+"The shipping information was unable to be saved. Error: ""%message""","Leveringsoplysningerne kunne ikke gemmes. Fejl: ""%message"""
+"The shipping information was unable to be saved. Verify the input data and try again.","Leveringsoplysningerne kunne ikke gemmes. Kontroller oplysningerne og prøv igen."
 "Carrier with such method not found: %1, %2","Kurér ikke fundet: %1, %2"
 "The shipping method is missing. Select the shipping method and try again.","Leveringsmetoden mangler. Vælg en leveringsmetode og prøv igen."
 " item"," vare"
@@ -2509,7 +2511,7 @@ Configurations,Konfigurationer
 "Attribute Values",Attributværdier
 "Bulk Images &amp; Price","Bulk billeder &amp; pris"
 "Select Attributes","Vælg attributter"
-"Choose an Option...","Vælg en valgmulighed..."
+"Choose an Option...","Vælg venligst..."
 "This attribute is used in configurable products.","Denne attribut bruges i konfigurérbare produkter."
 "Option with id ""%1"" not found","Valget med id ""%1"" blev ikke fundet"
 "You can't add the item to shopping cart.","Du kan ikke tilføje denne vare til indkøbskurven."
@@ -3439,6 +3441,7 @@ deleted,slettet
 "Cannot save comment:\n%1","Kan ikke gemme kommentar: \n%1"
 discount,rabat
 Declined,Afvist
+"Choose an Option...","Vælg en valgmulighed..."
 Comments,Kommentarer
 rate,bedøm
 Expires,Udløber
@@ -3658,6 +3661,8 @@ Duration:,Varighed:
 "Edit Catalog Price Rules","Rediger katalog prisregler"
 "Edit Cart Price Rules","Rediger prisregler for Indkøbskurv"
 "Enter SKU or Product Name","Indtast varenummer eller produktnavn"
+"The address failed to save. Verify the address and try again.","Adressen kunne ikke gemmes. Kontroller adressen og prøv igen."
+"The coupon code isn't valid. Verify the code and try again.","Rabatkoden er ikke gyldig. Kontroller koden og prøv igen."
 "Product that you are trying to add is not available.","Produktet du prøver at tilføje er ikke tilgængeligt."
 "Shipping & Handling (%1)","Levering & håndtering (%1)"
 "Some of the products below do not have all the required options.","Nogle af nedenstående produkter har ikke valgt de nødvendige tilpasningsmuligheder."
@@ -3993,6 +3998,7 @@ Unassign,"Fjern tildeling"
 "You have not canceled the item.","Du kan ikke annullere varen."
 "You canceled the order.","Du annullerede ordren."
 """%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1"" rabatkode blev ikke anvendt. Tildel ikke rabat for valgte vare(r)"
+"The ""%1"" coupon code isn't valid. Verify the code and try again.","""%1"" rabatkoden er ikke gyldig. Kontroller koden og prøv igen."
 "The coupon code has been accepted.","Rabatkode er godkendt."
 "New Order","Ny ordre"
 "Cannot add new comment.","Kan ikke tilføje ny kommentar."
