@@ -3421,12 +3421,16 @@ Wishlist,Ønskeliste
 "Order Review",Ordreoversigt
 "Grand Total:",Ordretotal:
 "Submitting order information...","Indsender ordreoplysninger..."
+"For successfully ordered items, you'll receive a confirmation email including order numbers, tracking information, and more details.","For bestilte varer vil du modtage en ordrebekræftelsesmail, herunder ordrenumre, sporingsoplysninger og flere detaljer."
+"Successfully Ordered","Købet er gennemført"
 "Ship to:","Leveres til:"
 Error:,Fejl:
 "Address %1 <span>of %2</span>","Adresse %1 <span>af %2</span>"
 "Sorry, no quotes are available for this order right now.","Desværre, ingen produkter er tilgængelige for denne ordre i øjeblikket."
 "Continue to Billing Information","Fortsæt til faktureringsoplysninger"
 "Back to Select Addresses","Tilbage til vælg adresser"
+"For successfully order items, you'll receive a confirmation email including order numbers, tracking information and more details.","For bestilte varer vil du modtage en ordrebekræftelsesmail, herunder ordrenumre, sporingsoplysninger og flere detaljer."
+"Successfully ordered","Købet er gennemført"
 "We can't complete your order because you don't have a payment method set up.","Vi kan ikke fuldføre bestillingen, fordi du ikke har en betalingsmetode, der er oprettet."
 "Review Order","Gennemse ordre"
 "Select Shipping Method","Vælg leveringsmetode"
@@ -4530,6 +4534,7 @@ error-message,fejlmeddelelse
 "View Product","Se produkt"
 "This Wish List has no Items","Denne ønskeliste indeholder ingen elementer"
 "%1 has been added to your Wish List.","%1 er blevet tilføjet til din ønskeliste."
+"%1 has been removed from your Wish List.","%1 er blevet fjernet fra din ønskeliste."
 "RSS Feed",RSS-feed
 "Last Added Items","Sidste tilføjet elementer"
 "You have no items in your wish list.","Du har ingen varer på din ønskeliste."
