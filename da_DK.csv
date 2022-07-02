@@ -4172,6 +4172,8 @@ Operations,Operationer
 "Shipping and Handling","Levering og håndtering"
 "Move to Archive","Flyt til arkivet"
 "Mass Add","Masse Tilføj"
+"The ""%1"" product is not part of the current creditmemo.","Produktet: ""%1"" er ikke en del af den aktuelle kreditnota."
+"The return to stock argument contains product item that is not part of the original order.","Returnering til lager indeholder produkter, der ikke er en del af den originale ordre."
 "Coupon Qty","Kupon antal"
 Labels,Etiketter
 "New Cart Price Rule","Ny prisregel for Indkøbskurven"
