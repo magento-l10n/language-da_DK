@@ -3644,6 +3644,7 @@ Vendor,Forhandler
 """Remember Me"" Default Value","""Husk mig"" Standard værdi"
 "Edit Product Price","Rediger Produktpris"
 "There are not enough parameters.","Der er ikke nok parametre."
+"Alert subscription has been saved.","Tilmeldingen er blevet gemt."
 Price:,Pris:
 "Notify me when this product is in stock","Få besked når varen er tilbage på lager"
 Url,URL
