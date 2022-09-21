@@ -1603,6 +1603,7 @@ Groups,Grupper
 "Compatible file extensions to upload","Kompatible filformater som kan uploades"
 "Maximum image width","Maksimum billedbredde"
 "Maximum image height","Maksimale billedhøjde"
+"Maximum number of characters:","Maksimalt antal tegn"
 "Product online","Produkt online"
 "Product offline","Produkt offline"
 "Product online status","Produkt online status"
@@ -1671,6 +1672,7 @@ Show,Vis
 "Set Descending Direction","Faldende orden"
 "View as","Vis som"
 "More Information",Specifikationer
+"Maximum %1 characters","Maksimalt %1 tegn"
 "Warning message",Advarselsmeddelelse
 "Configure Product","Konfigurer produktet"
 "This value does not follow the specified format (for example, 200X300).","Denne værdi følger ikke den angivne format (for eksempel, 200 X 300)."
@@ -1679,6 +1681,7 @@ Show,Vis
 "Image Detail",Billed-detaljer
 Adding...,Tilføjer...
 Added,Tilføjet
+remaining,resterende
 "too many","alt for mange"
 "unselect all","fravælg alle"
 Inventory,Lager
