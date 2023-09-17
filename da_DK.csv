@@ -1,7 +1,9 @@
 All,Alle
 None,Ingen
 "Allowed Scopes","Tilladte Scopes"
+"You need more permissions to delete this item(s): %1.","Du mangler rettigheder for at, kunne slette produkt(erne): %1."
 "You need more permissions to apply some of the rule updates.","Du har ikke tilladelse til at opdaterer reglen."
+"Please assign this entity to a store view.","Tildel venligst denne enhed til en butiksvisning."
 "You need more permissions to access website ""%1"".","Du har ikke rettigheder til at tilgå website ""%1""."
 "Role Scopes","Forretningsvisnings roller"
 Custom,Brugerdefineret
@@ -67,6 +69,7 @@ Severity,Alvorlighed
 "Date Added","Dato tilføjet"
 Message,Besked
 Actions,Handlinger
+"Close popup","Luk popup"
 "You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Du har set og løst alle de seneste system notifikationer. Opdater venligst webside for at rydde notifikation advarselen."
 "Manage Shopping Cart","Administrer indkøbskurv"
 "Create Order","Opret ordre"
@@ -846,12 +849,19 @@ Exclude,Udeluk
 "Magento root directory","Magento rodmappen"
 "Create Backup","Opret backup"
 Rollback,Tilbage
+"Scheduled Backup Settings","Planlagte backup-indstillinger"
 "Enable Scheduled Backup","Aktivere planlagt backup"
+"Backup Type","Backup type"
 Frequency,Hyppighed
 "Maintenance Mode",Vedligeholdelsestilstand
 "Are you sure you want to delete the selected backup(s)?","Er du sikker på du vil slette de markerede backup(s)?"
 Size(bytes),"Størrelse (bytes)"
 Download, Download
+"Backup functionality is disabled","Backup funktionalitet er deaktiveret"
+"Backup Settings","Backup Indstillinger"
+"Enable Backup","Aktivér backup"
+"Scheduled Backup Type","Planlagt backup type"
+"Disabled by default for security reasons","Deaktiveret som standard af sikkerhedsgrunde"
 "Save and Continue Edit","Gem og fortsæt redigering"
 "Default Content","Standard indhold"
 "No Default Content","Ingen standard indhold"
@@ -1776,6 +1786,7 @@ remaining,resterende
 "too many","alt for mange"
 "This value does not follow the specified format (for example, 200X300).","Denne værdi følger ikke den angivne format (for eksempel, 200 X 300)."
 Quality,Kvalitet
+Cost,Kostpris
 "The product's required option(s) weren't entered. Make sure the options are entered and try again.","Produktets påkrævede valgmulighed(er) blev ikke indtastet. Indtast valgmulighederne og prøv igen."
 "The product has required options. Enter the options and try again.","Produktet har påkrævede tilpasningsmuligheder. Færdiggør tilpasningen og prøv igen."
 "Product Name or SKU","Produktnavn eller Varenummer"
@@ -1832,6 +1843,8 @@ Sec,Sekunder
 "Category ID",Kategori-ID
 End,Afslut
 "Countdown Ticker",Nedtællingsticker
+"Edit Event...","Redigér begivenhed..."
+"Add Event...","Tilføj begivenhed..."
 "Category doesn't exist","Kategorien findes ikke"
 "There are no product types available for export.","Der er ingen varetyper til eksport."
 "'Entity type model must be an instance of ' .","'Enhedstypemodellen skal være en forekomst af'."
@@ -3443,7 +3456,6 @@ Comments,Kommentarer
 rate,bedøm
 Expires,Udløber
 Seller,Sælger
-Cost,Kostpris
 (Added),(Tilføjet)
 removed,fjernet
 Merge,Flet
@@ -4570,10 +4582,22 @@ Captured,Fanget
 Worldpay,WorldPay
 "Please ","Vær venlig at "
 "continue shopping","fortsæt med at shoppe"
+Summary,Resumé
+"Account Dashboard",Betjeningspanel
+"Address Book",Adressebog
+Settings,Instillinger
 "Quick Checkout","Hurtig Checkout"
 "Store alternative addresses","Gem alternative adresser"
 "For shipping to multiple family members and friends","For forsendelse til flere familiemedlemmer og venner"
+"<a href=%url_about_us>About Us</a>","<a href=%url_about_us>Om os</a>"
+"<a href=url_customer_service>Customer Service</a>","<a href=url_customer_service>Kundeservice</a>"
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Åbningstider: <br /> <span class=""no-link"">%store_hours</span>."
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Hvis du har spørgsmål til ordren, kan du kontakte os på <a href=""mailto:%store_email""> %store_email</a>."
+"Shipping Info",Forsendelsesinformation
+"Shipping Method",Forsendelsesmetode
+"Account Information",Kontooplysninger
+"About Us","Om os"
+"My Account","Min konto"
 "Backup options","Backup muligheder"
 Warning,Advarsel
 "Recent items","Seneste emner"
