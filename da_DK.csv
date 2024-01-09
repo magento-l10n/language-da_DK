@@ -4520,6 +4520,8 @@ username,brugernavn
 "Password Reset Confirmation for %name","Bekræftelse af nulstilling af adgangskode for %name"
 "If you requested this change, reset your password here:","Hvis du har anmodet om denne ændring skal du angive en ny adgangskode her:"
 "Hello,","Hej,"
+"We have received a request to change the following information associated with your account at %store_name: %changes.","Vi har modtaget en anmodning om at ændre de følgende oplysninger i forbindelse med din konto på %store_name: e-mail."
+"If you have not authorized this action, please contact us immediately at %store_email","Hvis du ikke har godkendt denne handling, skal du kontakte os straks på  %store_email"
 "Thanks,","Tak,"
 "Last login","Sidste login"
 Failures,Mislykkedes
