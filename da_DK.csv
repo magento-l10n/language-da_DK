@@ -3458,6 +3458,7 @@ Wishlist,Ønskeliste
 "Select Shipping Method","Vælg leveringsmetode"
 "Ship to:","Leveres til:"
 Error:,Fejl:
+"Some addresses can't be used due to the configurations for specific countries.","Nogle adresser kan ikke bruges på grund af konfigurationerne for bestemte lande."
 Decline,Afvis
 "Subtotal (Incl. Tax)","Subtotal (inkl. moms)"
 "Subtotal (Excl. Tax)","Subtotal (Ekskl. moms)"
@@ -3727,7 +3728,12 @@ Duration:,Varighed:
 "Some of the products below do not have all the required options.","Nogle af nedenstående produkter har ikke valgt de nødvendige tilpasningsmuligheder."
 "Minimum order amount is %1","Minimum ordre mængde er %1"
 "This item price or quantity is not valid for checkout.","Denne vareprisen eller mængden er ikke gyldig."
+"Please check the shipping address information. %1","Kontroller venligst oplysningerne om leveringsadressen. %1"
+"Please check the billing address information. %1","Kontroller venligst fakturaadressens oplysninger. %1"
 Carts,Indkøbskurve
+"Please check the shipping address information.","Kontroller venligst oplysningerne om leveringsadressen."
+"Please check the billing address information.","Kontroller venligst fakturaadressens oplysninger."
+"Enter a valid payment method and try again.","Indtast en gyldig betalingsmetode og prøv igen."
 "The address failed to save. Verify the address and try again.","Adressen kunne ikke gemmes. Kontroller adressen og prøv igen."
 "The coupon code isn't valid. Verify the code and try again.","Rabatkoden er ikke gyldig. Kontroller koden og prøv igen."
 "Run Now","Kør nu"
