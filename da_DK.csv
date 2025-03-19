@@ -126,6 +126,8 @@ Customers,Kunder
 "You do not have access to this.","Du har ikke adgang til dette."
 "Ordered item id is not received.","Bestilte vare-id ikke er modtaget."
 "Ordered item is not loaded.","Bestilte vare ikke er indlæst."
+"Quote item id is not received.","Reference id'et ikke er modtaget."
+"Quote item is not loaded.","Reference element ikke indlæst."
 "The wish list item id is not received.","Ønskeliste id'et er ikke modtaget."
 "The wish list item is not loaded.","Ønskeliste er ikke indlæst."
 "An error has occurred. See error log for details.","Der opstod en fejl. Se fejlloggen for detaljer."
@@ -1446,6 +1448,7 @@ Categories,Kategorier
 "Edit Product Attribute","Redigere produkt attribut"
 "An attribute set named '%1' already exists.","En attribut med navnet '%1' allerede findes."
 "Something went wrong while saving the attribute.","Noget gik galt da attributten skulle gemmes."
+"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Attributten koden ""%1"" er ugyldig. Brug venligst kun bogstaver (a-z), tal (0-9) eller understregning (_) i dette felt. Første tegn skal være et bogstav."
 "We can't update the attribute.","Vi kan ikke opdatere attributten."
 "You saved the product attribute.","Du gemte produkt attributten."
 "An attribute with this code already exists.","Der findes allerede en attribut med denne kode."
@@ -1460,6 +1463,7 @@ Categories,Kategorier
 "A total of %1 record(s) have been deleted.","I alt %1 post(er) er blevet slettet."
 "A total of %1 record(s) have been updated.","Ialt %1 post(er) er blevet opdateret."
 "Something went wrong while updating the product(s) status.","Noget gik galt under opdatering af produkt(ers) status."
+"Unable to save product","Kunne ikke gemme produktet"
 "You saved the product.","Du gemte produktet."
 "SKU for product %1 has been changed to %2.","SKU for produkt %1 er blevet ændret til %2."
 "The image cannot be removed as it has been assigned to the other image role","Billedet kan ikke fjernes, da det er blevet tildelt til andre billede"
@@ -2049,6 +2053,7 @@ Path,Sti
 "Customer is already registered","Kunden er allerede registreret"
 "Your session has expired","Din session er udløbet"
 "A letter with further instructions will be sent to your email.","Et brev med yderligere instruktioner vil blive sendt til din e-mail."
+"We can't find the quote item.","Vi kan ikke finde tilbuddet."
 "We cannot configure the product.","Vi kan ikke konfigurere produktet."
 "You used coupon code ""%1"".","Du brugte kuponkode ""%1""."
 "You canceled the coupon code.","Du annullerede kuponkoden."
@@ -2061,10 +2066,12 @@ Path,Sti
 "Guest checkout is disabled.","Gæste checkout er deaktiveret."
 Checkout,"Til kassen"
 "Page not found.","Siden blev ikke fundet."
+"Please agree to all the terms and conditions before placing the order.","Accepter venligst alle vilkår og betingelser, før du afgiver ordren."
 "Something went wrong while processing your order. Please try again later.","Noget gik galt under behandling af din ordre. Prøv igen senere."
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 forlænger ikke \Magento\Checkout\CustomerData\ItemInterface"
 "Payment Method",Betalingsmetode
 "Payment Page",Betalingsside
+"We can't find the product.","Vi kan ikke finde produktet."
 "We found an invalid request for adding product to quote.","Vi fandt en ugyldig anmodning om at tilføje produkt til ordren."
 "The product does not exist.","Produktet findes ikke."
 "We don't have some of the products you want.","Vi har ikke det ønskede antal af alle produkterne."
@@ -2074,7 +2081,10 @@ Checkout,"Til kassen"
 "This quote item does not exist.","Det ønskede produkt findes ikke."
 "Display number of items in cart","Vis antallet af varer i indkøbskurven"
 "Display item quantities","Få vist vare antal"
+"Shipping address is not set","Forsendelsesadresse er ikke angivet"
+"Unable to save shipping information. Please check input data.","Kan ikke gemme forsendelsesoplysninger. Kontroller venligst inputdata."
 "Carrier with such method not found: %1, %2","Kurér ikke fundet: %1, %2"
+"Shipping method is not applicable for empty cart","Forsendelsesmetode gælder ikke for tom varekurv"
 " item"," vare"
 " items"," varer"
 "Totals calculation is not applicable to empty cart","Ordrebeløb kan ikke beregnes indkøbskurven er tom"
@@ -2085,6 +2095,7 @@ Checkout,"Til kassen"
 "Sorry, guest checkout is not available.","Desværre, er gæste checkout ikke tilgængelig."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Du skal bekræfte din konto. Tjek venligst din e-mail for bekræftelse link eller <a href=""%1"">klik her</a> for et nyt link."
 "Load customer quote error","Indlæs kundetilbudsfejl"
+"Error message!",Fejlmeddelelse!
 Error!,Fejl!
 "DB exception","DB undtagelse"
 "Print receipt","Udskriv kvittering"
@@ -2148,6 +2159,7 @@ edit,rediger
 "Review & Payments","Gennemse & betalinger"
 "Select a new payment method","Vælg ny betalingsmetode"
 "Save Address","Gem adresse"
+"Please specify a shipping method.","Angiv venligst en forsendelsesmetode."
 "Checkout Options","Checkout valg"
 "Enable Onepage Checkout","Aktiver one-page checkout"
 "Allow Guest Checkout","Tillad gæste checkout"
@@ -2158,6 +2170,8 @@ edit,rediger
 "Number of Items to Display Pager","Antallet af elementer, der skal vises på én gang pr. side"
 "My Cart Link","Min Indkøbskurv link"
 "Display Cart Summary","Se indkøbskurv"
+"Shopping Cart Sidebar","Indkøbskurv Sidebar"
+"Display Shopping Cart Sidebar","Vis Indkøbskurv Sidebar"
 "Number of Items to Display Scrollbar","Antallet af elementer, der skal vises på én gang ved scrollbar"
 "Maximum Number of Items to Display","Maksimalt antal af produkter som vises"
 "Payment Failed Emails","Betaling mislykkedes e-mails"
@@ -2172,17 +2186,47 @@ edit,rediger
 "We'll send your order confirmation here.","Vi fremsender din ordrebekræftelse her."
 Payment,Betaling
 "Not yet calculated","Endnu ikke beregnet"
+"We received your order!","Vi har modtaget din ordre!"
 "Thank you for your purchase!","Tak for dit køb!"
+"Minimum order amount is %1","Minimum ordrebeløb er %1"
+"Unable to save address. Please, check input data.","Adressen kunne ikke gemmes. Tjek venligst inputdata."
+"Unable to save shipping information. Please, check input data.","Kan ikke gemme forsendelsesoplysninger. Tjek venligst inputdata."
+"Cart contains virtual product(s) only. Shipping address is not applicable.","Kurven indeholder kun virtuelle produkt(er). Leveringsadresse er ikke relevant."
+"Wrong minimum amount.","Forkert minimumsbeløb."
+"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Udskriv kvittering</a>"
+"Forgot Password","Glemt adgangskode"
+item,vare
+items,varer
+"Go to Checkout","Gå til betaling"
+"Recently added item(s)","Senest tilføjede vare(r)"
+"View and edit cart","Vis og rediger kurv"
+"No Payment Methods","Ingen betalingsmetoder"
+"Shipping Methods",Forsendelsesmetoder
+"Select Method","Vælg metode"
+"Method Title","Metode titel"
+"Carrier Title","Transportør titel"
+Next,Næste
 "Sorry, no quotes are available for this order at this time","Beklager, ingen estimater er tilgængelig for ordren på dette tidspunkt"
 "Item in Cart","vare i indkøbskurven"
 "Items in Cart","varer i indkøbskurven"
+"Require Customer To Be Logged In To Checkout","Kræv, at kunden er logget ind for at gå til kassen"
+"Maximum Display Recently Added Item(s)","Maksimal visning af nyligt tilføjede vare(r)"
+of,af
 "Something went wrong while saving the page. Please refresh the page and try again.","Noget gik galt da vi prøvede at gemme siden. Prøv af genindlæse den og prøv igen."
 "You added %1 to your <a href=""%2"">shopping cart</a>.","Du har tilføjet %1 til din <a href=""%2"">indkøbskurv</a>."
 "Please select at least one product to add to cart","Vælg mindst ét produkt der skal lægges i indkøbskurven"
 "The quote item isn't found. Verify the item and try again.","Produktet blev ikke fundet. Kontroller produktet og prøv igen."
+"The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","Din ordre kunne ikke gennemføres. Du skal først acceptere vores vilkår og betingelser, før du kan prøve at afgive ordren igen."
+"The product wasn't found. Verify the product and try again.","Produktet blev ikke fundet. Verificer produktet og prøv igen."
+"A server error stopped your order from being placed. Please try to place your order again.","En serverfejl forhindrede din ordre fra at blive oprettet. Prøv at afgive din ordre igen."
+"The shipping address is missing. Set the address and try again.","Leveringsadressen mangler. Indstil adressen, og prøv igen."
 "The shipping information was unable to be saved. Verify the input data and try again.","Leveringsoplysningerne kunne ikke gemmes. Kontroller oplysningerne og prøv igen."
+"The shipping method can't be set for an empty cart. Add an item to cart and try again.","Forsendelsesmetoden kan ikke indstilles for en tom kurv. Tilføj en vare til indkøbskurven, og prøv igen."
+"Something went wrong with your request. Please try again later.","Der gik noget galt med din anmodning. Prøv venligst igen senere."
 "The shipping method is missing. Select the shipping method and try again.","Leveringsmetoden mangler. Vælg en leveringsmetode og prøv igen."
 "Show Cross-sell Items in the Shopping Cart","Vis krydssalgsvarer i indkøbskurven"
+"Unable to place order. Please try again later.","Kan ikke afgive ordre. Prøv venligst igen senere."
+"Please specify a regionId in shipping address.","Angiv venligst et regions-id i forsendelsesadressen."
 "Terms and Conditions","Vilkår og betingelser"
 "Add New Condition","Tilføj ny betingelse"
 "Save Condition","Gem tilstand"
@@ -2210,7 +2254,9 @@ Automatically,Automatisk
 Manually,Manuelt
 "Terms & Conditions",Handelsbetingelser
 "Enable Terms and Conditions","Aktiver handelsbetingelser"
+"Preview mode doesn't allow submitting the order.","Forhåndsvisning tillader ikke at sende ordren."
 "Preview Quote Lifetime (minutes)","Forhåndsvisning levetid (minutter)"
+"The order can't be submitted in preview mode.","Ordren kan ikke sendes i eksempelvisningstilstand."
 "Static Blocks","Statiske blokke"
 "Add New Block","Tilføj ny blok"
 "Delete Block","Slet blok"
@@ -3424,8 +3470,6 @@ Discarded,Kasséret
 "Send At",Sendt
 Link,Forbind
 "Invite your friends by entering their email addresses","Inviter dine venner ved at indtaste deres e-mailadresser"
-item,vare
-items,varer
 "Now Shopping by","Aktive filtre"
 "All Users","Alle brugere"
 Report,Rapporter
@@ -4212,7 +4256,6 @@ Complete,Fuldført
 "Suspected Fraud","Mistanke om svig"
 "Email has not been sent","E-mail er ikke blevet sendt"
 "Group was removed","Gruppen blev fjernet"
-"No Payment Methods","Ingen betalingsmetoder"
 "Move to Shopping Cart","Tilføj til indkøbskurv"
 "Sorry, no quotes are available for this order.","Desværre, ingen produkter er tilgængelige for denne ordre."
 "You don't need to select a shipping method.","Du behøver ikke at angive en leveringsmetode."
@@ -4339,7 +4382,6 @@ Store:,Butik:
 Website:,Hjemmeside:
 Assign,Tildel
 products,produkter
-of,af
 included,inkluderet
 Assigned,Tildelt
 "New Shipment for Order #%1","Ny leverance for ordre #%1"
@@ -4432,7 +4474,6 @@ Id,"Jeg ville"
 "URL key","URL nøgle"
 Parent,Ovenstående
 Method,Metode
-"Error message!",Fejlmeddelelse!
 "Show Log","Vis Log"
 Collapse,"Fold sammen"
 Expand,Udvid
@@ -4802,3 +4843,5 @@ Translate,Oversæt
 "Enter valid SKU key","Indtast gyldig SKU nøgle"
 "Swatch and Admin are the required fields in the each row.","Swatch og Admin er de obligatoriske felter i hver række."
 "Insert Variable","Indsæt variabel"
+"The widget %1 is no longer available. Select a different widget.","Widget %1 er ikke længere tilgængelig. Vælg en anden widget."
+"First character must be letter.","Første tegn skal være bogstav."
